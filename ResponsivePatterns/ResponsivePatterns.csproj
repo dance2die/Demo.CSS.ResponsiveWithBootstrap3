@@ -77,6 +77,10 @@
     <Content Include="08\after\app.css" />
     <Content Include="08\after\index.html" />
     <Content Include="08\before\index.html" />
+    <Content Include="09\after\app.css" />
+    <Content Include="09\after\index.html" />
+    <Content Include="09\before\app.css" />
+    <Content Include="09\before\index.html" />
     <Content Include="Content\app.css" />
     <Content Include="images\elk.jpg" />
     <Content Include="images\icon-biathlon.png" />
