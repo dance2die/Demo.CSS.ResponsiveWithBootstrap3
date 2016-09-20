@@ -96,6 +96,8 @@
     <Content Include="images\range-5.png" />
     <Content Include="images\snowboarder.jpg" />
     <Content Include="packages.config" />
+    <Content Include="Scripts\cbpAnimatedHeader.js" />
+    <Content Include="Scripts\classie.js" />
     <Content Include="Scripts\jquery-3.1.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.0.min.map" />
     <None Include="Web.Debug.config">
