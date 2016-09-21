@@ -39,6 +39,14 @@
 	background-position: center;
 }
 
+.content-filler {
+	min-height: 350px;
+}
+
+.fixed-attachment {
+	background-attachment: fixed;
+}
+
 .img-responsive {
 	margin-left: 40px;
 	border: 3px solid blue;
