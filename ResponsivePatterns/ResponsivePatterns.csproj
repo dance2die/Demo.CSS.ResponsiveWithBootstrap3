@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="02\index.html" />
     <Content Include="04\after\index.html" />
     <Content Include="04\before\index.html" />
     <Content Include="05\after\index.html" />
