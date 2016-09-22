@@ -7,7 +7,6 @@
 	<link href="../../Content/bootstrap.min.css" rel="stylesheet" />
 	<link href="../../Content/app.css" rel="stylesheet" />
 
-
 </head>
 <body>
 	<header>
@@ -39,27 +38,54 @@
 	</header>
 
 	<div class="container-fluid">
-		<div class="row" style="">
+		<section class="row" style="">
 			<div class="fill-screen"
 				 style="background-image: url(../images/lake.jpg)">
 			</div>
-		</div>
-		<div class="row content-filler">
-		</div>
-		<div class="row" style="">
+		</section>
+
+		<section class="row text-banner">
+			<h1>VISIT THE ROCKY MOUNTAINS</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet tortor nec malesuada sodales. Phasellus mattis, metus vel mattis rutrum, arcu ante lobortis nisi, et semper tellus nisl viverra dolor. Duis sed pellentesque ante, ut tristique lectus. Duis cursus, lacus nec consequat aliquam, velit nibh molestie risus, at pretium orci neque a est. Nam volutpat ultricies nibh, at ultricies mi egestas ut. Maecenas ac congue quam, ut maximus nunc. Donec sed nisl mi. Cras fringilla sapien eros, vel condimentum orci dignissim cursus.</p>
+		</section>
+
+		<section class="row" style="">
 			<div class="fill-screen fixed-attachment"
 				 style="background-image: url(../images/elk.jpg)">
 			</div>
-		</div>
-		<div class="row content-filler">
-		</div>
-		<div class="row" style="">
+		</section>
+
+		<section class="row activity-section">
+			<div class="activity-element col-md-4">
+				<img src="../../images/map.png"/>
+				<h2>Orienteering</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet tortor nec malesuada sodales.</p>
+			</div>
+			<div class="activity-element col-md-4">
+				<img src="../../images/pic.png"/>
+				<h2>Rock Climbing</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet tortor nec malesuada sodales.</p>
+			</div>
+			<div class="activity-element col-md-4">
+				<img src="../../images/backpack.png"/>
+				<h2>Backpacking</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet tortor nec malesuada sodales.</p>
+			</div>
+		</section>
+
+		<section class="row" style="">
 			<div class="fill-screen fixed-attachment"
 				 style="background-image: url(../images/snowboarder.jpg)">
 			</div>
-		</div>
-		<div class="row content-filler">
-		</div>
+		</section>
+
+		<section class="row contact-us">
+			<h1>CONTACT US</h1>
+			<h3>Somewhere in NY</h3>
+			<p>Lorem ipsum dolor sit amet</p>
+			<p>Lorem ipsum dolor sit amet</p>
+			<p>Lorem ipsum dolor sit amet</p>
+		</section>
 	</div>
 
 	<footer class="container-fluid">
@@ -73,12 +99,7 @@
 	<script src="../../Scripts/classie.js"></script>
 	<script src="../../Scripts/cbpAnimatedHeader.js"></script>
 
-	<script>
-		$(function () {
-			$(window).on('load resize', function () {
-				$('.fill-screen').css('height', window.innerHeight);
-			});
-		});
-	</script>
+	<script src="scrolling.js"></script>
+
 </body>
 </html>
