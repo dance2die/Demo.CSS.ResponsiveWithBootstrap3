@@ -17,4 +17,7 @@
 
 		event.preventDefault();
 	});
+
+	// Parallax scrolling with stellar.js
+	//$(window).stellar();
 });
