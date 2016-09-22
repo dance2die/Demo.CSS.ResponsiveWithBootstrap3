@@ -10,7 +10,7 @@
 
 </head>
 <body>
-	<header>
+	<header id="top">
 		<nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header">
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -28,10 +28,11 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">Sights</a></li>
-						<li><a href="#">Sports</a></li>
-						<li><a href="#">Activities</a></li>
-						<li><a href="#">Contact Us</a></li>
+						<li><a href="#top">Home</a></li>
+						<li><a href="#sights">Sights</a></li>
+						<li><a href="#sports">Sports</a></li>
+						<li><a href="#activities">Activities</a></li>
+						<li><a href="#contact-us">Contact Us</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
@@ -45,24 +46,24 @@
 			</div>
 			
 			<div class="down-button">
-				<a class="btn">
+				<a class="btn" href="#sights">
 					<i class="fa fa-arrow-circle-down fa-4x"></i>
 				</a>
 			</div>
 		</section>
 
-		<section class="row text-banner">
+		<section id="sights" class="row text-banner">
 			<h1>VISIT THE ROCKY MOUNTAINS</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet tortor nec malesuada sodales. Phasellus mattis, metus vel mattis rutrum, arcu ante lobortis nisi, et semper tellus nisl viverra dolor. Duis sed pellentesque ante, ut tristique lectus. Duis cursus, lacus nec consequat aliquam, velit nibh molestie risus, at pretium orci neque a est. Nam volutpat ultricies nibh, at ultricies mi egestas ut. Maecenas ac congue quam, ut maximus nunc. Donec sed nisl mi. Cras fringilla sapien eros, vel condimentum orci dignissim cursus.</p>
 		</section>
 
-		<section class="row" style="">
+		<section id="sports" class="row" style="">
 			<div class="fill-screen fixed-attachment"
 				 style="background-image: url(../images/elk.jpg)">
 			</div>
 		</section>
 
-		<section class="row activity-section">
+		<section id="activities" class="row activity-section">
 			<div class="activity-element col-md-4">
 				<img src="../../images/map.png"/>
 				<h2>Orienteering</h2>
@@ -86,7 +87,7 @@
 			</div>
 		</section>
 
-		<section class="row contact-us">
+		<section id="contact-us" class="row contact-us">
 			<h1>CONTACT US</h1>
 			<h3>Somewhere in NY</h3>
 			<p>Lorem ipsum dolor sit amet</p>
