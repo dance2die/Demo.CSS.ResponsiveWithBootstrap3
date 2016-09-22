@@ -20,4 +20,10 @@
 
 	// Parallax scrolling with stellar.js
 	//$(window).stellar();
+
+	// Parallax scrolling with Parallax.js
+	$('.parallaxImage').parallax({
+		imageSrc: '../images/lake.jpg',
+		speed: 0.5
+	});
 });
