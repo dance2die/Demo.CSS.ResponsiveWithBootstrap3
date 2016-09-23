@@ -94,6 +94,9 @@
     <Content Include="images\icon-downhill.png" />
     <Content Include="images\icon-snowboard.png" />
     <Content Include="images\lake.jpg" />
+    <Content Include="images\photos\image1.jpg" />
+    <Content Include="images\photos\image2.jpg" />
+    <Content Include="images\photos\image3.jpg" />
     <Content Include="images\range-1.png" />
     <Content Include="images\range-2.png" />
     <Content Include="images\range-3.png" />
