@@ -26,4 +26,8 @@
 		imageSrc: '../images/lake.jpg',
 		speed: 0.5
 	});
+
+	// Initialize WOW setting
+	var wow = new WOW();
+	wow.init();
 });
