@@ -30,4 +30,9 @@
 	// Initialize WOW setting
 	var wow = new WOW();
 	wow.init();
+
+	// Initialize NanoGallery
+	$(document).ready(function () {
+		$("#nanoGallery3").nanoGallery();
+	});
 });
